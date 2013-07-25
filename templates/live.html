@@ -1,0 +1,12 @@
+<li>uptime</li>
+<div class="box">
+	<li>{{ uptime }}</li>
+</div>
+{% if sensors|length > 0  %}
+	<li>sensors</li>
+	<div class="box">
+	{% for s in sensors %}
+		<li>{{ s }}</li>
+		{% endfor %}	
+	</div>
+{% endif %}

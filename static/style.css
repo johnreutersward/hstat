@@ -1,0 +1,3 @@
+body			{ font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace!important; }
+.main 			{ padding: 20px;}
+.box			{ background: #eee; margin-top: 5px; margin-bottom: 5px; padding: 5px;}
